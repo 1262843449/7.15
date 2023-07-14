@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="我的.css">
+</head>
+
+<body>
+    <script>
+        (function () {
+            var styleNode = document.createElement("style");
+            var w = document.documentElement.clientWidth / 12;
+            styleNode.innerHTML = "html{font-size:" + w + "px!important}";
+            document.head.appendChild(styleNode);
+        })();
+    </script>
+    <div class="bbox">
+        <div id="box">
+        </div>
+        <div class="bang">
+            <div>
+                <span>绑定手机</span>
+            </div>
+            <div>
+                <span>问题反馈</span>
+            </div>
+            <div>
+                <span>关于我们</span>
+            </div>
+            <div>
+                <span>夜间模式</span>
+            </div>
+            <div>
+                <span>一键大字</span>
+            </div>
+            <div>
+                <span>关于小睡眠</span>
+            </div>
+        </div>
+        <div class="di">
+            <ul>
+                <li>声音</li>
+                <li>助眠</li>
+                <li>呼吸</li>
+                <li>推荐</li>
+                <li>我的</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.di {
+  flex-wrap: wrap;
+  width: 6rem;
+  height: 2rem;
+}
+.di ul {
+  position: absolute;
+  top: 19.5rem;
+  margin-left: 0.5rem;
+  width: 24rem;
+  line-height: 90px;
+  float: left;
+}
+.di ul li {
+  font-size: 17px;
+  width: 2.5rem;
+  float: left;
+}
+#box {
+  flex-wrap: wrap;
+  content: "";
+  position: absolute;
+  top: 0px;
+  width: 4rem;
+  height: 7.5rem;
+  min-width: 13.08rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #2aae67;
+  border-radius: 0 0 50% 50%;
+  z-index: -1;
+}
+.zi {
+  margin-top: 1.12rem;
+  float: right;
+  width: 3.2rem;
+  height: 2.56rem;
+  font-size: 0.544rem;
+  margin-right: 5.48rem;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.user {
+  margin-top: 0.8rem;
+  margin-left: 0.64rem;
+}
+p {
+  text-align: center;
+}
+.tu {
+  background-color: #2aae67;
+  width: 100%;
+  margin-top: 0.384rem;
+}
